@@ -136,7 +136,7 @@ const Footer = () => {
 			{/* <!-- End Testimonial Slider --> */}
 
 			{/* <!-- Start Blog Section --> */}
-			<div className="blog-section">
+			{/* <div className="blog-section">
 				<div className="container">
 					<div className="row mb-5">
 						<div className="col-md-6">
@@ -189,7 +189,7 @@ const Footer = () => {
 
 					</div>
 				</div>
-			</div>
+			</div> */}
 			{/* <!-- End Blog Section -->	 */}
 
 			{/* <!-- Start Footer Section --> */}
@@ -200,7 +200,7 @@ const Footer = () => {
 						<img src={sofa} alt="Image" className="img-fluid" />
 					</div>
 
-					<div className="row">
+					{/* <div className="row">
 						<div className="col-lg-8">
 							<div className="subscription-form">
 								<h3 className="d-flex align-items-center"><span className="me-1"><img src={envelopeoutline} alt="Image" className="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
@@ -221,7 +221,7 @@ const Footer = () => {
 
 							</div>
 						</div>
-					</div>
+					</div> */}
 
 					<div className="row g-5 mb-5">
 						<div className="col-lg-4">
@@ -286,7 +286,7 @@ const Footer = () => {
 								<p className="mb-2 text-center text-lg-start">Copyright &copy;
 
 									<script>document.write(new Date().getFullYear());</script>
-									. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>
+									. All Rights Reserved By Expert High Decorate. &mdash; Designed with love by Pritesh Sarva
 									{/* <!-- License information: https://untree.co/license/ --> */}
 								</p>
 							</div>

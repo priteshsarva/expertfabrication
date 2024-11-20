@@ -19,7 +19,6 @@ import SingleProduct from './pages/SingleProduct';
 function App() {
   // const router = createBrowserRouter([
   const router = createHashRouter([
-
     {
       path: "/",
       element: <AppLayout />,
