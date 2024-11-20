@@ -200,7 +200,7 @@ const Footer = () => {
 						<img src={sofa} alt="Image" className="img-fluid" />
 					</div>
 
-					{/* <div className="row">
+					 <div className="row">
 						<div className="col-lg-8">
 							<div className="subscription-form">
 								<h3 className="d-flex align-items-center"><span className="me-1"><img src={envelopeoutline} alt="Image" className="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
@@ -221,7 +221,7 @@ const Footer = () => {
 
 							</div>
 						</div>
-					</div> */}
+					</div> 
 
 					<div className="row g-5 mb-5">
 						<div className="col-lg-4">
@@ -240,7 +240,7 @@ const Footer = () => {
 							</ul>
 						</div>
 
-						<div className="col-lg-8">
+							{/*	<div className="col-lg-8">
 							<div className="row links-wrap">
 								<div className="col-6 col-sm-6 col-md-3">
 									<ul className="list-unstyled">
@@ -276,7 +276,7 @@ const Footer = () => {
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div>*/}
 
 					</div>
 
