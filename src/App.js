@@ -8,7 +8,8 @@ import Service from './pages/Service';
 import Blog from './pages/Blog';
 import ContactUs from './pages/ContactUs';
 import {
-  createBrowserRouter,
+  createBrowserRouter, 
+  createHashRouter,
   RouterProvider,
   Navigate,
 } from "react-router-dom";
@@ -16,7 +17,9 @@ import AppLayout from './layout/AppLayout';
 import SingleProduct from './pages/SingleProduct';
 
 function App() {
-  const router = createBrowserRouter([
+  // const router = createBrowserRouter([
+  const router = createHashRouter([
+
     {
       path: "/",
       element: <AppLayout />,
@@ -26,29 +29,29 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/Shop",
+          path: "/shop",
           element: <Shop />,
         },
         {
-          path: "/AboutUs",
+          path: "/aboutus",
           element: <AboutUs />,
         },
         {
-          path: "/Service",
+          path: "/service",
           // element: <Service />,
           element: <Navigate to="/" replace />,
         },
         {
-          path: "/Blog",
+          path: "/blog",
           // element: <Blog />,
           element: <Navigate to="/" replace />,
         },
         {
-          path: "/ContactUs",
+          path: "/contactus",
           element: <ContactUs />,          
         },
         {
-          path: "/SingleProduct",
+          path: "/singleProduct",
           element: <SingleProduct />,
         },
         {

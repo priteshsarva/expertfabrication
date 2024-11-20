@@ -27,11 +27,11 @@ const Navbars = () => {
 				<div className="collapse navbar-collapse" id="navbarsFurni">
 					<ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 						<li className={`"nav-item active" ${location.pathname === "/" ? "active" : ""}`}><NavLink className="nav-link" to="/">Home</NavLink></li>
-						<li className={`"nav-item active" ${location.pathname === "/Shop" ? "active" : ""}`}><NavLink className="nav-link" to="Shop">Shop</NavLink></li>
-						<li className={`"nav-item active" ${location.pathname === "/AboutUs" ? "active" : ""}`}><NavLink className="nav-link" to="AboutUs">About</NavLink></li>
-						{/* <li className={`"nav-item active" ${location.pathname === "/Service" ? "active" : ""}`}><NavLink className="nav-link" to="Service">Services</NavLink></li> */}
-						{/* <li className={`"nav-item active" ${location.pathname === "/Blog" ? "active" : ""}`}><NavLink className="nav-link" to="Blog">Blog</NavLink></li> */}
-						<li className={`"nav-item active" ${location.pathname === "/ContactUs" ? "active" : ""}`}><NavLink className="nav-link" to="ContactUs">Contact us</NavLink></li>
+						<li className={`"nav-item active" ${location.pathname === "/shop" ? "active" : ""}`}><NavLink className="nav-link" to="shop">Shop</NavLink></li>
+						<li className={`"nav-item active" ${location.pathname === "/aboutus" ? "active" : ""}`}><NavLink className="nav-link" to="aboutus">About</NavLink></li>
+						{/* <li className={`"nav-item active" ${location.pathname === "/service" ? "active" : ""}`}><NavLink className="nav-link" to="service">Services</NavLink></li> */}
+						{/* <li className={`"nav-item active" ${location.pathname === "/blog" ? "active" : ""}`}><NavLink className="nav-link" to="blog">Blog</NavLink></li> */}
+						<li className={`"nav-item active" ${location.pathname === "/contactus" ? "active" : ""}`}><NavLink className="nav-link" to="contactus">Contact us</NavLink></li>
 					</ul>
 
 					<ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
