@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/expertfabrication/static/css/main.9bcf119a.css",
-    "main.js": "/expertfabrication/static/js/main.23ad7ce1.js",
+    "main.js": "/expertfabrication/static/js/main.a49e202d.js",
     "static/media/img-grid-1.jpg": "/expertfabrication/static/media/img-grid-1.ad8ba13496a1834763e0.jpg",
     "static/media/why-choose-us-img.jpg": "/expertfabrication/static/media/why-choose-us-img.afb2571022e4d5a42915.jpg",
     "static/media/post-2.jpg": "/expertfabrication/static/media/post-2.6c8ac20b2ce55eb93c55.jpg",
@@ -34,10 +34,10 @@
     "static/media/user.svg": "/expertfabrication/static/media/user.2ad014cc892eb2c011a29c6aa01d1f37.svg",
     "static/media/cross.svg": "/expertfabrication/static/media/cross.9dd90697cd5acebb06614fe46d109c52.svg",
     "main.9bcf119a.css.map": "/expertfabrication/static/css/main.9bcf119a.css.map",
-    "main.23ad7ce1.js.map": "/expertfabrication/static/js/main.23ad7ce1.js.map"
+    "main.a49e202d.js.map": "/expertfabrication/static/js/main.a49e202d.js.map"
   },
   "entrypoints": [
     "static/css/main.9bcf119a.css",
-    "static/js/main.23ad7ce1.js"
+    "static/js/main.a49e202d.js"
   ]
 }
